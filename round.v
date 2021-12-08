@@ -3,7 +3,7 @@ wire [127:0] sub_out, shift_out, mix_out;
 
 sub_bytes  step1(clk, din,sub_out );
 ShiftRows  step2(clk, sub_out,shift_out);
-MixColumns step3(clk, shift_out,mix_out);
+mixcolumns step3(clk, shift_out,mix_out);
 assign dout = mix_out ^ keyin;
 endmodule
 
