@@ -20,12 +20,12 @@ begin
 	data_out[23:16]   <= data_in[119:112];
 	
 	//shift two
-	data_out[114:104]	<= data_in[47:40];
+	data_out[111:104]	<= data_in[47:40];
    data_out[79:72]	<= data_in[15:8];
-   data_out[47:40]	<= data_in[114:104];
+   data_out[47:40]	<= data_in[111:104];
    data_out[15:8]		<= data_in[79:72];
 
-	//shift two
+	//shift three
 	data_out[103:96]	<= data_in[7:0];
 	data_out[71:64]	<= data_in[103:96];
 	data_out[39:32]	<= data_in[71:64];
