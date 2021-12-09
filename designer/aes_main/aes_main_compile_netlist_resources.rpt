@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Thu Dec  9 00:25:00 2021
+Date: Thu Dec  9 13:04:31 2021
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+--------------------------------------------------------------+
-| Topcell | aes_main                                                     |
-| Format  | Verilog                                                      |
-| Source  | C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.vm |
-+---------+--------------------------------------------------------------+
++---------+------------------------------------------------------------------+
+| Topcell | aes_main                                                         |
+| Format  | Verilog                                                          |
+| Source  | C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\aes_main.vm |
++---------+------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -40,8 +40,8 @@ Resource Usage
 | 4LUT                      | 0    | 12084 | 0.00       |
 | DFF                       | 0    | 12084 | 0.00       |
 | I/O Register              | 0    | 252   | 0.00       |
-| User I/O                  | 2    | 84    | 2.38       |
-| -- Single-ended I/O       | 2    | 84    | 2.38       |
+| User I/O                  | 8    | 84    | 9.52       |
+| -- Single-ended I/O       | 8    | 84    | 9.52       |
 | -- Differential I/O Pairs | 0    | 37    | 0.00       |
 | RAM64x18                  | 0    | 22    | 0.00       |
 | RAM1K18                   | 0    | 21    | 0.00       |
@@ -70,7 +70,7 @@ I/O Function
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
 | Input I/O                     | 0            | 0           | 0               |
-| Output I/O                    | 2            | 0           | 0               |
+| Output I/O                    | 8            | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -80,7 +80,7 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  0    |  2     |  0            |
+| LVCMOS25     |  2.50v |  N/A |  0    |  8     |  0            |
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources

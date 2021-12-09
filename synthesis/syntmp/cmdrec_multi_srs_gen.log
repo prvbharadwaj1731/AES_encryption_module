@@ -1,7 +1,7 @@
-C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  aes_main  -multisrs  C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.srs  -osyn  C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_mult.srs  -log  C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synlog\aes_main_multi_srs_gen.srr 
-relcom:..\..\..\..\..\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top aes_main -multisrs ..\synwork\aes_main_comp.srs -osyn ..\synwork\aes_main_mult.srs -log ..\synlog\aes_main_multi_srs_gen.srr
+C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  aes_main  -multisrs  "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_comp.srs"  -osyn  "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_mult.srs"  -log  "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synlog\aes_main_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top aes_main -multisrs "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_comp.srs" -osyn "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_mult.srs" -log "C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synlog\aes_main_multi_srs_gen.srr"
 rc:0 success:1 runtime:0
-file:..\synwork\aes_main_comp.srs|io:i|time:1639034660|size:13109|exec:0|csum:EE8B40901131B4FCF3349BA76C99EC74
-file:..\synwork\aes_main_mult.srs|io:o|time:1639034661|size:4532|exec:0|csum:
-file:..\synlog\aes_main_multi_srs_gen.srr|io:o|time:1639034661|size:1160|exec:0|csum:
-file:..\..\..\..\..\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967
+file:..\synwork\aes_main_comp.srs|io:i|time:1639079987|size:22259|exec:0|csum:394510261EB1A0F2EA39F1653C261C31
+file:..\synwork\aes_main_mult.srs|io:o|time:1639079988|size:12203|exec:0|csum:
+file:..\synlog\aes_main_multi_srs_gen.srr|io:o|time:1639079988|size:1164|exec:0|csum:
+file:..\..\..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

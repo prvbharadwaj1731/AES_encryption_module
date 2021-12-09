@@ -9,7 +9,7 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 
@@ -24,9 +24,9 @@ Part:			M2S010VF400STD (Microchip)
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       2                  100 %                
+IO       8                  100 %                
 =================================================
-Total IO PADS in the block aes_main:	2 (50.00 % Utilization)
+Total IO PADS in the block aes_main:	8 (80.00 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

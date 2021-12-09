@@ -1,5 +1,2 @@
-@E: CG283 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":40:12:40:17|Procedural assign is not a supported statement
-@E: CG283 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":41:12:41:17|Procedural assign is not a supported statement
-@E: CG283 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":45:12:45:17|Procedural assign is not a supported statement
-@E: CG283 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":46:12:46:17|Procedural assign is not a supported statement
+@E: CG791 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v":42:33:42:33|Could not resolve hierarchical name 'key[0]'.
 

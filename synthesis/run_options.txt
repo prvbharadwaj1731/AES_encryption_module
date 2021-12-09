@@ -1,18 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
-#--  Project file C:\Microsemi\Projects\Project_3\AES_jb\synthesis\run_options.txt
-#--  Written on Thu Dec  9 00:24:19 2021
+#--  Project file C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\run_options.txt
+#--  Written on Thu Dec  9 12:59:45 2021
 
 
 #project files
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/ShiftRows.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/sbox.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/sub_bytes.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/round.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/key_generation.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/mixcolumns.v"
-add_file -verilog "C:/Microsemi/Projects/Project_3/AES_jb/hdl/aes_main.v"
-add_file -fpga_constraint "C:/Microsemi/Projects/Project_3/AES_jb/designer/aes_main/synthesis.fdc"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/ShiftRows.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/sbox.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/sub_bytes.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/round.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/key_generation.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/mixcolumns.v"
+add_file -verilog "C:/Users/Jiabin Lin/Desktop/Module4_Libero/hdl/aes_main.v"
+add_file -fpga_constraint "C:/Users/Jiabin Lin/Desktop/Module4_Libero/designer/aes_main/synthesis.fdc"
 
 
 #implementation: "synthesis"

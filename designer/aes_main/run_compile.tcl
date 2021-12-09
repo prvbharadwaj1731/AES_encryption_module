@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.vm"}
+    -value {"C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\aes_main.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main} \
+    -desdir {C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main} \
     -design aes_main \
     -fam SmartFusion2 \
     -die PA4M1000_N \

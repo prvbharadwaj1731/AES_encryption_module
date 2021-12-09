@@ -1,26 +1,26 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi\\Projects\\Project_3\\AES_jb\\synthesis\\synwork\\aes_main_comp.srs|-top|aes_main|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Microsemi\\Projects\\Project_3\\AES_jb\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\synthesis\\synwork\\aes_main_comp.srs|-top|aes_main|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
 #CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\ShiftRows.v":1639029008
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\sbox.v":1639029142
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\sub_bytes.v":1639029176
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\round.v":1639030558
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\key_generation.v":1639029064
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\mixcolumns.v":1639029104
-#CUR:"C:\\Microsemi\\Projects\\Project_3\\AES_jb\\hdl\\aes_main.v":1639034646
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\ShiftRows.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\sbox.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\sub_bytes.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\round.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\key_generation.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\mixcolumns.v":1639070782
+#CUR:"C:\\Users\\Jiabin Lin\\Desktop\\Module4_Libero\\hdl\\aes_main.v":1639079935
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v" verilog
-1			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v" verilog
-2			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v" verilog
-3			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v" verilog
-4			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v" verilog
-5			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v" verilog
-6			"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v" verilog
+0			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\ShiftRows.v" verilog
+1			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sbox.v" verilog
+2			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sub_bytes.v" verilog
+3			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\round.v" verilog
+4			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\key_generation.v" verilog
+5			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v" verilog
+6			"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -49,4 +49,5 @@ module work rcon 4
 module work x32 5
 module work x2 5
 module work x3 5
+module work aes 6
 module work aes_main 6

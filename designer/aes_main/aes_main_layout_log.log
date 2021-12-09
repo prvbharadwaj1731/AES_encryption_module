@@ -8,17 +8,16 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Microsemi\Projects\Project_3\AES_jb\constraint\io\test.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file C:\Microsemi\Projects\Project_3\AES_jb\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Jiabin Lin\Desktop\Module4_Libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 2 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 8 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.900.20 
-Design: aes_main                        Started: Thu Dec  9 00:25:03 2021
+Design: aes_main                        Started: Thu Dec  9 13:04:35 2021
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -34,22 +33,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: aes_main                        
-Finished: Thu Dec  9 00:25:06 2021
+Finished: Thu Dec  9 13:04:38 2021
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
-Total Memory Usage: 105.9 Mbytes
+Total Memory Usage: 106.9 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_mainStarted: Thu Dec  9 00:25:08 2021
+Design: C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_mainStarted: Thu Dec  9 13:04:41 2021
 
 
 Router completed successfully.
 
-Design: C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main
-Finished: Thu Dec  9 00:25:12 2021
+Design: C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main
+Finished: Thu Dec  9 13:04:45 2021
 Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
-Total Memory Usage: 445.8 Mbytes
+Total Memory Usage: 447.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -66,7 +65,7 @@ I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  2    | 100.00%    |
+| Locked |  8    | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

@@ -1,11 +1,11 @@
 Software Version: 12.900.20.24
-Opened 'C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main_fp\aes_main.pro'
-PDB file 'C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main.pdb' has been loaded successfully.
-DESIGN : aes_main;  CHECKSUM : 2802;  PDB_VERSION : 1.9
-File/Folder 'C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main.ppd'; file programs Fabric.
-Fabric component bitstream digest: 243e7acbf4a5db88b430a472393fead3fd272860cef86a23144fc70a35f8940b
-Finished: Thu Dec 09 00:25:33 2021 (Elapsed time 00:00:06)
+Opened 'C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main_fp\aes_main.pro'
+PDB file 'C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main.pdb' has been loaded successfully.
+DESIGN : aes_main;  CHECKSUM : 5C0E;  PDB_VERSION : 1.9
+File/Folder 'C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main.ppd'; file programs Fabric.
+Fabric component bitstream digest: a5cad52797e9bc2e85ee989f2bc01ff661dd0a8daeb28a43d702ca55aa7f7413
+Finished: Thu Dec 09 13:05:10 2021 (Elapsed time 00:00:07)
 
 Project saved.
 Project closed.

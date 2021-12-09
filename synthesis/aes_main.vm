@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "Q-2020.03M-SP1"
 // Program "Synplify Pro", Mapper "map202003act, Build 160R"
-// Thu Dec  9 00:24:54 2021
+// Thu Dec  9 13:04:23 2021
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -11,203 +11,65 @@
 // file 2 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
 // file 3 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
 // file 4 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
-// file 5 "\c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v "
-// file 6 "\c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v "
-// file 7 "\c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v "
-// file 8 "\c:\microsemi\projects\project_3\aes_jb\hdl\round.v "
-// file 9 "\c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v "
-// file 10 "\c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v "
-// file 11 "\c:\microsemi\projects\project_3\aes_jb\hdl\aes_main.v "
+// file 5 "\c:\users\jiabin lin\desktop\module4_libero\hdl\shiftrows.v "
+// file 6 "\c:\users\jiabin lin\desktop\module4_libero\hdl\sbox.v "
+// file 7 "\c:\users\jiabin lin\desktop\module4_libero\hdl\sub_bytes.v "
+// file 8 "\c:\users\jiabin lin\desktop\module4_libero\hdl\round.v "
+// file 9 "\c:\users\jiabin lin\desktop\module4_libero\hdl\key_generation.v "
+// file 10 "\c:\users\jiabin lin\desktop\module4_libero\hdl\mixcolumns.v "
+// file 11 "\c:\users\jiabin lin\desktop\module4_libero\hdl\aes_main.v "
 // file 12 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
-// file 13 "\c:\microsemi\projects\project_3\aes_jb\designer\aes_main\synthesis.fdc "
+// file 13 "\c:\users\jiabin lin\desktop\module4_libero\designer\aes_main\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module aes_main (
   clk,
-  correct_flag,
-  incorrect_flag
+  indicators
 )
 ;
 input clk ;
-output correct_flag ;
-output incorrect_flag ;
+output [7:0] indicators ;
 wire clk ;
-wire correct_flag ;
-wire incorrect_flag ;
 wire VCC ;
 wire GND ;
-wire N_1 ;
-wire N_2 ;
-wire N_3 ;
-wire N_4 ;
-wire N_5 ;
-wire N_6 ;
-wire N_7 ;
-wire N_8 ;
-wire N_9 ;
-wire N_10 ;
-wire N_11 ;
-wire N_12 ;
-wire N_13 ;
-wire N_14 ;
-wire N_15 ;
-wire N_16 ;
-wire N_17 ;
-wire N_18 ;
-wire N_3_0 ;
-wire N_4_0 ;
-wire N_5_0 ;
-wire N_6_0 ;
-wire N_7_0 ;
-wire N_8_0 ;
-wire N_9_0 ;
-wire N_10_0 ;
-wire N_11_0 ;
-wire N_12_0 ;
-wire N_13_0 ;
-wire N_14_0 ;
-wire N_15_0 ;
-wire N_16_0 ;
-wire N_17_0 ;
-wire N_3_1 ;
-wire N_4_1 ;
-wire N_5_1 ;
-wire N_6_1 ;
-wire N_7_1 ;
-wire N_8_1 ;
-wire N_9_1 ;
-wire N_10_1 ;
-wire N_11_1 ;
-wire N_12_1 ;
-wire N_13_1 ;
-wire N_14_1 ;
-wire N_15_1 ;
-wire N_16_1 ;
-wire N_17_1 ;
-wire N_18_0 ;
-wire N_19 ;
-wire N_20 ;
-wire N_21 ;
-wire N_8958 ;
-wire N_8959 ;
-wire N_8960 ;
-wire N_8961 ;
-wire N_8962 ;
-wire N_8963 ;
-wire N_8964 ;
-wire N_8965 ;
-wire N_8966 ;
-wire N_8967 ;
-wire N_8968 ;
-wire N_8969 ;
-wire N_8970 ;
-wire N_8971 ;
-wire N_8972 ;
-wire N_8973 ;
-wire N_8974 ;
-wire N_8975 ;
-wire N_8976 ;
-wire N_8977 ;
-wire N_8978 ;
-wire N_8979 ;
-wire N_8980 ;
-wire N_8981 ;
-wire N_8982 ;
-wire N_8983 ;
-wire N_8984 ;
-wire N_8985 ;
-wire N_8986 ;
-wire N_8987 ;
-wire N_8988 ;
-wire N_8989 ;
-wire N_8990 ;
-wire N_8991 ;
-wire N_8992 ;
-wire N_8993 ;
-wire N_8994 ;
-wire N_8995 ;
-wire N_8996 ;
-wire N_8997 ;
-wire N_8998 ;
-wire N_8999 ;
-wire N_9000 ;
-wire N_9001 ;
-wire N_9002 ;
-wire N_9003 ;
-wire N_9004 ;
-wire N_9005 ;
-wire N_9006 ;
-wire N_9007 ;
-wire N_9008 ;
-wire N_9009 ;
-wire N_9010 ;
-wire N_9011 ;
-wire N_9012 ;
-wire N_9013 ;
-wire N_9014 ;
-wire N_9015 ;
-wire N_9016 ;
-wire N_9017 ;
-wire N_9018 ;
-wire N_9019 ;
-wire N_9020 ;
-wire N_9021 ;
-wire N_9022 ;
-wire N_9023 ;
-wire N_9024 ;
-wire N_9025 ;
-wire N_9026 ;
-wire N_9027 ;
-wire N_9028 ;
-wire N_9029 ;
-wire N_9030 ;
-wire N_9031 ;
-wire N_9032 ;
-wire N_9033 ;
-wire N_9034 ;
-wire N_9035 ;
-wire N_9036 ;
-wire N_9037 ;
-wire N_9038 ;
-wire N_9039 ;
-wire N_9040 ;
-wire N_9041 ;
-wire N_9042 ;
-wire N_9043 ;
-wire N_9044 ;
-wire N_9045 ;
-wire N_9046 ;
-wire N_9047 ;
-wire N_9048 ;
-wire N_9049 ;
-wire N_9050 ;
-wire N_9051 ;
-wire N_9052 ;
-wire N_9053 ;
-wire N_9054 ;
-wire N_9055 ;
-wire N_9056 ;
-wire N_9057 ;
-wire N_9058 ;
-wire N_9059 ;
-wire N_9060 ;
-wire N_9061 ;
-wire N_9062 ;
-wire N_9063 ;
-wire N_9064 ;
-wire N_9065 ;
-wire N_9071 ;
-wire N_9072 ;
-wire N_9073 ;
-wire N_9074 ;
-// @11:1
-  OUTBUF correct_flag_obuf (
-	.PAD(correct_flag),
-	.D(VCC)
+// @11:37
+  OUTBUF \indicators_obuf[0]  (
+	.PAD(indicators[0]),
+	.D(GND)
 );
-// @11:1
-  OUTBUF incorrect_flag_obuf (
-	.PAD(incorrect_flag),
+// @11:37
+  OUTBUF \indicators_obuf[1]  (
+	.PAD(indicators[1]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[2]  (
+	.PAD(indicators[2]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[3]  (
+	.PAD(indicators[3]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[4]  (
+	.PAD(indicators[4]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[5]  (
+	.PAD(indicators[5]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[6]  (
+	.PAD(indicators[6]),
+	.D(GND)
+);
+// @11:37
+  OUTBUF \indicators_obuf[7]  (
+	.PAD(indicators[7]),
 	.D(GND)
 );
   GND GND_Z (

@@ -1,6 +1,6 @@
 <project name="aes_main" version="1.2">
     <ProjectDirectory>
-        C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main_fp
+        C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\aes_main_fp\aes_main.log
+        C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\aes_main_fp\aes_main.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -19,10 +19,10 @@
     </ProgrammingInterface>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
         <name>
-            E2001Q8ZYC
+            E2001XFG5Q
         </name>
         <id>
-            E2001Q8ZYC
+            E2001XFG5Q
         </id>
     </programmer>
     <Server>

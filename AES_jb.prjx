@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Microsemi\Projects\Project_3\AES_jb"
+KEY ProjectLocation "C:\Users\Jiabin Lin\Desktop\Module4_Libero"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -43,80 +43,81 @@ KEY Vendor "Actel"
 KEY ActiveRoot "aes_main::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
-CURREV=1
+VALUE="Impl2",NUM=2
+CURREV=2
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
 VALUE "<project>\constraint\io\test.pdc,io_pdc"
 STATE="utd"
-TIME="1639031709"
+TIME="1639070782"
 SIZE="0"
 ENDFILE
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
-TIME="1639034487"
-SIZE="926"
+TIME="1639075251"
+SIZE="1574"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>\hdl\aes_main.v,hdl"
 STATE="utd"
-TIME="1639034811"
-SIZE="1702"
+TIME="1639079935"
+SIZE="4223"
 ENDFILE
 VALUE "<project>\hdl\key_generation.v,hdl"
 STATE="utd"
-TIME="1639029064"
+TIME="1639070782"
 SIZE="1184"
 ENDFILE
 VALUE "<project>\hdl\mixcolumns.v,hdl"
 STATE="utd"
-TIME="1639029104"
+TIME="1639070782"
 SIZE="1535"
 ENDFILE
 VALUE "<project>\hdl\round.v,hdl"
 STATE="utd"
-TIME="1639030558"
+TIME="1639070782"
 SIZE="535"
 ENDFILE
 VALUE "<project>\hdl\sbox.v,hdl"
 STATE="utd"
-TIME="1639029142"
+TIME="1639070782"
 SIZE="7885"
 ENDFILE
 VALUE "<project>\hdl\ShiftRows.v,hdl"
 STATE="utd"
-TIME="1639029008"
+TIME="1639070782"
 SIZE="855"
 ENDFILE
 VALUE "<project>\hdl\sub_bytes.v,hdl"
 STATE="utd"
-TIME="1639029176"
+TIME="1639070782"
 SIZE="716"
 ENDFILE
 VALUE "<project>\synthesis\aes_main.so,so"
 STATE="utd"
-TIME="1639030705"
-SIZE="229"
+TIME="1639073781"
+SIZE="233"
 ENDFILE
 VALUE "<project>\synthesis\aes_main.vm,syn_vm"
 STATE="ood"
-TIME="1639030705"
-SIZE="1496"
+TIME="1639073781"
+SIZE="2309"
 ENDFILE
 VALUE "<project>\synthesis\aes_main_syn.prj,prj"
 STATE="utd"
-TIME="1639030705"
-SIZE="2664"
+TIME="1639073782"
+SIZE="2735"
 ENDFILE
 VALUE "<project>\synthesis\aes_main_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1639030705"
-SIZE="805"
+TIME="1639073781"
+SIZE="898"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1639030671"
+TIME="1639070782"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -126,7 +127,6 @@ LIST NewModulesInfo
 LIST "aes_main::work"
 FILE "<project>\hdl\aes_main.v,hdl"
 LIST PNRConstraints
-VALUE "<project>\constraint\io\test.pdc,io_pdc"
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 ENDLIST
 ENDLIST
@@ -199,20 +199,20 @@ BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="Synplify Pro ME"
+NAME="synplify pro"
 FUNCTION="Synthesis"
-TOOL="Synplify Pro ME"
+TOOL="Synplify Pro from Synopsys"
 LOCATION="C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+PARAM=" -batch -log synplify.log"
 BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="ModelSim ME Pro"
+NAME="modelSim"
 FUNCTION="Simulation"
-TOOL="ModelSim Pro Edition"
-LOCATION="C:\Microsemi\Libero_SoC_v12.6\ModelSimPro\win32acoem\modelsim.exe"
-PARAM=" -l testbench_postsynth_simulation.log "
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -220,7 +220,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microsemi\Libero_SoC_v12.6\Identify\bin\identify_debugger.exe"
+LOCATION="C:MicrosemiLibero_SoC_v12.6Identifyin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -245,13 +245,17 @@ Reports;Reports;0
 ReportsCurrentItem;Run Programming Action:aes_main_PROGRAM.log
 HDL;hdl\aes_main.v;0
 HDL;hdl\round.v;0
-ACTIVEVIEW;hdl\aes_main.v
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
-LIST "aes_main::work","hdl\aes_main.v","FALSE","FALSE"
+LIST "aes::work","hdl\aes_main.v","FALSE","FALSE"
 SUBBLOCK "f_round::work","hdl\round.v","FALSE","FALSE"
 SUBBLOCK "key_generation::work","hdl\key_generation.v","FALSE","FALSE"
 SUBBLOCK "round::work","hdl\round.v","FALSE","FALSE"
+ENDLIST
+LIST "aes_main::work","hdl\aes_main.v","FALSE","FALSE"
+SUBBLOCK "aes::work","hdl\aes_main.v","FALSE","FALSE"
 ENDLIST
 LIST "f_round::work","hdl\round.v","FALSE","FALSE"
 SUBBLOCK "ShiftRows::work","hdl\ShiftRows.v","FALSE","FALSE"

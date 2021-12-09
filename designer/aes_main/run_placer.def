@@ -1,6 +1,6 @@
 G5PLACER_32_64_BIT_EXT=64
 DESIGN=aes_main
-DESDIR=C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main
+DESDIR=C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144
@@ -30,7 +30,7 @@ NETLIST_TYPE=EDIF
 MINDELAYG4_REPAIR=0
 MINDELAYG5_REPAIR=0
 LAYOUT_STATE=NOT_VALID
-PDC_FILE=C:\Microsemi\Projects\Project_3\AES_jb\constraint\io\test.pdc,,C:\Microsemi\Projects\Project_3\AES_jb\constraint\io\user.pdc,,
+PDC_FILE=C:\Users\Jiabin Lin\Desktop\Module4_Libero\constraint\io\user.pdc,,
 USE_CONSTRAINT_FLOW=1
 TARGET_DEVICES_FOR_MIGRATION='PA4M1000_N '
 RESTRICTPROBEPINS=1

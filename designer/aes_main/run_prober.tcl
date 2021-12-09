@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main} \
+    -desdir {C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main} \
     -design aes_main \
     -fam SmartFusion2 \
     -die PA4M1000_N \

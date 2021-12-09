@@ -9,42 +9,44 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-6        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06)
+13       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 12
+Modules that may have changed as a result of file changes: 13
 MID:  lib.cell.view
 0        work.ShiftRows.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
+13       work.aes.verilog may have changed because the following files changed:
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (module definition)
 1        work.aes_main.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (module definition)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (module definition)
 2        work.f_round.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 3        work.key_generation.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 4        work.mixcolumns.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 5        work.rcon.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 6        work.round.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 7        work.sbox.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 8        work.sub_bytes.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 9        work.x2.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 10       work.x3.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 11       work.x32.verilog may have changed because the following files changed:
-                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+                        C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v (2021-12-09 12:50:52, 2021-12-09 12:58:55) <-- (may instantiate this module)
 
 *******************************************************************
 Unmodified files: 11
@@ -54,12 +56,12 @@ FID:  path (timestamp)
 2        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v (2020-11-03 00:58:13)
 3        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-11-03 00:58:13)
 4        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v (2020-11-03 00:58:13)
-5        C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v (2021-12-08 22:50:08)
-7        C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v (2021-12-08 22:51:04)
-8        C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v (2021-12-08 22:51:44)
-9        C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v (2021-12-08 23:15:58)
-10       C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v (2021-12-08 22:52:22)
-11       C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v (2021-12-08 22:52:56)
+12       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\ShiftRows.v (2021-12-09 10:26:22)
+14       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\key_generation.v (2021-12-09 10:26:22)
+15       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v (2021-12-09 10:26:22)
+16       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\round.v (2021-12-09 10:26:22)
+17       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sbox.v (2021-12-09 10:26:22)
+18       C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sub_bytes.v (2021-12-09 10:26:22)
 
 *******************************************************************
 Unchanged modules: 0

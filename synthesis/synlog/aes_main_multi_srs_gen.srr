@@ -10,19 +10,19 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
 
 @N|Running in 64-bit mode
-File C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.srs changed - recompiling
+File C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 95MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 97MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  9 00:24:21 2021
+# Thu Dec  9 12:59:48 2021
 
 ###########################################################]

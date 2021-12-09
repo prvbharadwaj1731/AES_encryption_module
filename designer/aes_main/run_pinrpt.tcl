@@ -1,6 +1,6 @@
 DESIGN=aes_main
-DESDIR=C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main
-TARGET_DIR=C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main
+DESDIR=C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main
+TARGET_DIR=C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

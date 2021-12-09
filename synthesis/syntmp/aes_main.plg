@@ -7,5 +7,5 @@
 @P: aes_main Part : m2s010vf400std
 @P: aes_main Register bits  : 0 
 @P: aes_main DSP Blocks  : 0
-@P: aes_main I/O primitives : 2
-@P:  CPU Time : 0h:00m:31s
+@P: aes_main I/O primitives : 8
+@P:  CPU Time : 0h:04m:20s

@@ -9,16 +9,16 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 
-# Written on Thu Dec  9 00:24:23 2021
+# Written on Thu Dec  9 13:00:01 2021
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "aes_main"
-Constraint File(s):      "C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\synthesis.fdc"
+Constraint File(s):      "C:\Users\Jiabin Lin\Desktop\Module4_Libero\designer\aes_main\synthesis.fdc"
 
 
 
@@ -46,8 +46,14 @@ aes_main|clk     aes_main|clk     |     10.000           |     No paths         
 Unconstrained Start/End Points
 ******************************
 
-p:correct_flag
-p:incorrect_flag
+p:indicators[0]
+p:indicators[1]
+p:indicators[2]
+p:indicators[3]
+p:indicators[4]
+p:indicators[5]
+p:indicators[6]
+p:indicators[7]
 
 
 Inapplicable constraints

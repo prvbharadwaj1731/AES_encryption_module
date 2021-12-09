@@ -9,7 +9,7 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
@@ -27,7 +27,7 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
@@ -40,41 +40,44 @@ Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 202
 @I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v" (library work)
-@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\ShiftRows.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sbox.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sub_bytes.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\round.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\key_generation.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v" (library work)
+@I::"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v" (library work)
 Verilog syntax check successful!
-File C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v changed - recompiling
+File C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v changed - recompiling
 Selecting top level module aes_main
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v":2:7:2:10|Synthesizing module sbox in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sbox.v":2:7:2:10|Synthesizing module sbox in library work.
 Running optimization stage 1 on sbox .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":33:7:33:10|Synthesizing module rcon in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\key_generation.v":33:7:33:10|Synthesizing module rcon in library work.
 Running optimization stage 1 on rcon .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":1:7:1:20|Synthesizing module key_generation in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\key_generation.v":1:7:1:20|Synthesizing module key_generation in library work.
 Running optimization stage 1 on key_generation .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v":1:7:1:15|Synthesizing module sub_bytes in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\sub_bytes.v":1:7:1:15|Synthesizing module sub_bytes in library work.
 Running optimization stage 1 on sub_bytes .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v":1:7:1:15|Synthesizing module ShiftRows in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\ShiftRows.v":1:7:1:15|Synthesizing module ShiftRows in library work.
 Running optimization stage 1 on ShiftRows .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":45:7:45:8|Synthesizing module x2 in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v":45:7:45:8|Synthesizing module x2 in library work.
 Running optimization stage 1 on x2 .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":54:7:54:8|Synthesizing module x3 in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v":54:7:54:8|Synthesizing module x3 in library work.
 Running optimization stage 1 on x3 .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":16:7:16:9|Synthesizing module x32 in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v":16:7:16:9|Synthesizing module x32 in library work.
 Running optimization stage 1 on x32 .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":1:7:1:16|Synthesizing module mixcolumns in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\mixcolumns.v":1:7:1:16|Synthesizing module mixcolumns in library work.
 Running optimization stage 1 on mixcolumns .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":1:7:1:11|Synthesizing module round in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\round.v":1:7:1:11|Synthesizing module round in library work.
 Running optimization stage 1 on round .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":10:7:10:13|Synthesizing module f_round in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\round.v":10:7:10:13|Synthesizing module f_round in library work.
 Running optimization stage 1 on f_round .......
-@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":1:7:1:14|Synthesizing module aes_main in library work.
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v":1:7:1:9|Synthesizing module aes in library work.
+Running optimization stage 1 on aes .......
+@N: CG364 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v":37:7:37:14|Synthesizing module aes_main in library work.
 Running optimization stage 1 on aes_main .......
 Running optimization stage 2 on aes_main .......
+Running optimization stage 2 on aes .......
 Running optimization stage 2 on f_round .......
 Running optimization stage 2 on round .......
 Running optimization stage 2 on mixcolumns .......
@@ -89,15 +92,15 @@ Running optimization stage 2 on sbox .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.rt.csv
+@L: C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 92MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 96MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  9 00:24:20 2021
+# Thu Dec  9 12:59:47 2021
 
 ###########################################################]
 ###########################################################[
@@ -112,34 +115,34 @@ Build: Q-2020.03M-SP1
 Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: LAPTOP-466NLTIC
+Hostname: DESKTOP-DSCJO49
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
 
 @N|Running in 64-bit mode
-File C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.srs changed - recompiling
+File C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  9 00:24:20 2021
+# Thu Dec  9 12:59:47 2021
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.rt.csv
+@L: C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\synwork\aes_main_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec  9 00:24:20 2021
+# Thu Dec  9 12:59:47 2021
 
 ###########################################################]

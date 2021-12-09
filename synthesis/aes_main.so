@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>aes_main</design>
-	<target_verilog>C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.vm</target_verilog>
+	<target_verilog>C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\aes_main.vm</target_verilog>
 </SynplifyOutput>

@@ -8,19 +8,25 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
 
-# Date generated: Thu Dec  9 00:25:12 2021 
+# Date generated: Thu Dec  9 13:04:45 2021 
 
 
 #
 # I/O constraints
 #
 
-set_io correct_flag -DIRECTION OUTPUT -pinname 117 -fixed no
-set_io incorrect_flag -DIRECTION OUTPUT -pinname 129 -fixed no
+set_io indicators\[0\] -DIRECTION OUTPUT -pinname 117 -fixed no
+set_io indicators\[1\] -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io indicators\[2\] -DIRECTION OUTPUT -pinname 122 -fixed no
+set_io indicators\[3\] -DIRECTION OUTPUT -pinname 123 -fixed no
+set_io indicators\[4\] -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io indicators\[5\] -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io indicators\[6\] -DIRECTION OUTPUT -pinname 128 -fixed no
+set_io indicators\[7\] -DIRECTION OUTPUT -pinname 129 -fixed no
 
 #
 # Core cell constraints
 #
 
-set_location ip_interface_inst -fixed no 191 0
 set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location ip_interface_inst -fixed no 191 0

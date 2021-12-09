@@ -1,1 +1,1 @@
-@W: MT530 :"c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v":25:0:25:5|Found inferred clock aes_main|clk which controls 4866 sequential elements including r1.step1.out[127:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\jiabin lin\desktop\module4_libero\hdl\sub_bytes.v":25:0:25:5|Found inferred clock aes_main|clk which controls 38912 sequential elements including t1.r1.step1.out[127:0]. This clock has no specified timing constraint which may adversely impact design performance. 

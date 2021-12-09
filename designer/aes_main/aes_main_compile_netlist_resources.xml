@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Thu Dec  9 00:25:00 2021
+<text>Date: Thu Dec  9 13:04:31 2021
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.vm</cell>
+ <cell>C:\Users\Jiabin Lin\Desktop\Module4_Libero\synthesis\aes_main.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -124,15 +124,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>2</cell>
+ <cell>8</cell>
  <cell>84</cell>
- <cell>2.38</cell>
+ <cell>9.52</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>2</cell>
+ <cell>8</cell>
  <cell>84</cell>
- <cell>2.38</cell>
+ <cell>9.52</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -244,7 +244,7 @@
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>2</cell>
+ <cell>8</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -282,7 +282,7 @@
  <cell> 2.50v</cell>
  <cell> N/A</cell>
  <cell> 0</cell>
- <cell> 2</cell>
+ <cell> 8</cell>
  <cell> 0</cell>
 </row>
 </table>

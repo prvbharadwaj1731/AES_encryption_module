@@ -7,9 +7,9 @@ SLE            0 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 3
-I/O primitives: 2
-OUTBUF         2 uses
+I/O ports: 9
+I/O primitives: 8
+OUTBUF         8 uses
 
 
 Total LUTs:    0

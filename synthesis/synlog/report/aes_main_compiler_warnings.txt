@@ -1,23 +1,3 @@
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":32:10:32:12|Removing instance r10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":31:8:31:9|Removing instance r9 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":30:8:30:9|Removing instance r8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":29:8:29:9|Removing instance r7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":28:8:28:9|Removing instance r6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":27:8:27:9|Removing instance r5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":26:8:26:9|Removing instance r4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":25:8:25:9|Removing instance r3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":24:8:24:9|Removing instance r2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":23:8:23:9|Removing instance r1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":20:16:20:18|Removing instance k10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":19:16:19:17|Removing instance k9 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":18:16:18:17|Removing instance k8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":17:16:17:17|Removing instance k7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":16:16:16:17|Removing instance k6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":14:16:14:17|Removing instance k5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":13:16:13:17|Removing instance k4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":12:16:12:17|Removing instance k3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":11:16:11:17|Removing instance k2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":10:16:10:17|Removing instance k1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL169 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":36:4:36:9|Pruning unused register correct_flag. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":36:4:36:9|Pruning unused register incorrect_flag. Make sure that there are no unused intermediate registers.
+@W: CL168 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v":81:8:81:9|Removing instance t2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Jiabin Lin\Desktop\Module4_Libero\hdl\aes_main.v":80:8:80:9|Removing instance t1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 
