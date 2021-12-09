@@ -1,0 +1,10 @@
+DESIGN=aes_main
+DESDIR=C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main
+TARGET_DIR=C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

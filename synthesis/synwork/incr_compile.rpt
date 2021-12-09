@@ -1,0 +1,66 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+6        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 12
+MID:  lib.cell.view
+0        work.ShiftRows.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+1        work.aes_main.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (module definition)
+2        work.f_round.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+3        work.key_generation.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+4        work.mixcolumns.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+5        work.rcon.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+6        work.round.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+7        work.sbox.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+8        work.sub_bytes.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+9        work.x2.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+10       work.x3.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+11       work.x32.verilog may have changed because the following files changed:
+                        C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v (2021-12-09 00:18:56, 2021-12-09 00:24:06) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 11
+FID:  path (timestamp)
+0        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v (2020-11-03 00:58:10)
+1        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v (2020-11-03 00:58:13)
+2        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v (2020-11-03 00:58:13)
+3        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-11-03 00:58:13)
+4        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v (2020-11-03 00:58:13)
+5        C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v (2021-12-08 22:50:08)
+7        C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v (2021-12-08 22:51:04)
+8        C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v (2021-12-08 22:51:44)
+9        C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v (2021-12-08 23:15:58)
+10       C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v (2021-12-08 22:52:22)
+11       C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v (2021-12-08 22:52:56)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

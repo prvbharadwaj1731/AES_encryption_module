@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v":2:7:2:10|Synthesizing module sbox in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":33:7:33:10|Synthesizing module rcon in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":1:7:1:20|Synthesizing module key_generation in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v":1:7:1:15|Synthesizing module sub_bytes in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v":1:7:1:15|Synthesizing module ShiftRows in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":45:7:45:8|Synthesizing module x2 in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":54:7:54:8|Synthesizing module x3 in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":16:7:16:9|Synthesizing module x32 in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":1:7:1:16|Synthesizing module mixcolumns in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":1:7:1:11|Synthesizing module round in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":10:7:10:13|Synthesizing module f_round in library work.
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":1:7:1:14|Synthesizing module aes_main in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,145 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v" (library work)
+Verilog syntax check successful!
+File C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v changed - recompiling
+Selecting top level module aes_main
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v":2:7:2:10|Synthesizing module sbox in library work.
+Running optimization stage 1 on sbox .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":33:7:33:10|Synthesizing module rcon in library work.
+Running optimization stage 1 on rcon .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":1:7:1:20|Synthesizing module key_generation in library work.
+Running optimization stage 1 on key_generation .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v":1:7:1:15|Synthesizing module sub_bytes in library work.
+Running optimization stage 1 on sub_bytes .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v":1:7:1:15|Synthesizing module ShiftRows in library work.
+Running optimization stage 1 on ShiftRows .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":45:7:45:8|Synthesizing module x2 in library work.
+Running optimization stage 1 on x2 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":54:7:54:8|Synthesizing module x3 in library work.
+Running optimization stage 1 on x3 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":16:7:16:9|Synthesizing module x32 in library work.
+Running optimization stage 1 on x32 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":1:7:1:16|Synthesizing module mixcolumns in library work.
+Running optimization stage 1 on mixcolumns .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":1:7:1:11|Synthesizing module round in library work.
+Running optimization stage 1 on round .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":10:7:10:13|Synthesizing module f_round in library work.
+Running optimization stage 1 on f_round .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":1:7:1:14|Synthesizing module aes_main in library work.
+Running optimization stage 1 on aes_main .......
+Running optimization stage 2 on aes_main .......
+Running optimization stage 2 on f_round .......
+Running optimization stage 2 on round .......
+Running optimization stage 2 on mixcolumns .......
+Running optimization stage 2 on x32 .......
+Running optimization stage 2 on x3 .......
+Running optimization stage 2 on x2 .......
+Running optimization stage 2 on ShiftRows .......
+Running optimization stage 2 on sub_bytes .......
+Running optimization stage 2 on key_generation .......
+Running optimization stage 2 on rcon .......
+Running optimization stage 2 on sbox .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+File C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]

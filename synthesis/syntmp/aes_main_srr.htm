@@ -1,0 +1,960 @@
+<html><body><samp><pre>
+<!@TC:1639034659>
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-466NLTIC
+
+# Thu Dec  9 00:24:19 2021
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1639034660> | Running in 64-bit mode 
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=compilerReport2></a>Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @</a>
+
+@N: : <!@TM:1639034660> | Running in 64-bit mode 
+@N:<a href="@N:CG1349:@XP_HELP">CG1349</a> : <!@TM:1639034660> | Running Verilog Compiler in System Verilog mode 
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v" (library work)
+Verilog syntax check successful!
+File C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v changed - recompiling
+Selecting top level module aes_main
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v:2:7:2:11:@N:CG364:@XP_MSG">sbox.v(2)</a><!@TM:1639034660> | Synthesizing module sbox in library work.
+Running optimization stage 1 on sbox .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v:33:7:33:11:@N:CG364:@XP_MSG">key_generation.v(33)</a><!@TM:1639034660> | Synthesizing module rcon in library work.
+Running optimization stage 1 on rcon .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v:1:7:1:21:@N:CG364:@XP_MSG">key_generation.v(1)</a><!@TM:1639034660> | Synthesizing module key_generation in library work.
+Running optimization stage 1 on key_generation .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v:1:7:1:16:@N:CG364:@XP_MSG">sub_bytes.v(1)</a><!@TM:1639034660> | Synthesizing module sub_bytes in library work.
+Running optimization stage 1 on sub_bytes .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v:1:7:1:16:@N:CG364:@XP_MSG">ShiftRows.v(1)</a><!@TM:1639034660> | Synthesizing module ShiftRows in library work.
+Running optimization stage 1 on ShiftRows .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v:45:7:45:9:@N:CG364:@XP_MSG">mixcolumns.v(45)</a><!@TM:1639034660> | Synthesizing module x2 in library work.
+Running optimization stage 1 on x2 .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v:54:7:54:9:@N:CG364:@XP_MSG">mixcolumns.v(54)</a><!@TM:1639034660> | Synthesizing module x3 in library work.
+Running optimization stage 1 on x3 .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v:16:7:16:10:@N:CG364:@XP_MSG">mixcolumns.v(16)</a><!@TM:1639034660> | Synthesizing module x32 in library work.
+Running optimization stage 1 on x32 .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v:1:7:1:17:@N:CG364:@XP_MSG">mixcolumns.v(1)</a><!@TM:1639034660> | Synthesizing module mixcolumns in library work.
+Running optimization stage 1 on mixcolumns .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v:1:7:1:12:@N:CG364:@XP_MSG">round.v(1)</a><!@TM:1639034660> | Synthesizing module round in library work.
+Running optimization stage 1 on round .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v:10:7:10:14:@N:CG364:@XP_MSG">round.v(10)</a><!@TM:1639034660> | Synthesizing module f_round in library work.
+Running optimization stage 1 on f_round .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v:1:7:1:15:@N:CG364:@XP_MSG">aes_main.v(1)</a><!@TM:1639034660> | Synthesizing module aes_main in library work.
+Running optimization stage 1 on aes_main .......
+Running optimization stage 2 on aes_main .......
+Running optimization stage 2 on f_round .......
+Running optimization stage 2 on round .......
+Running optimization stage 2 on mixcolumns .......
+Running optimization stage 2 on x32 .......
+Running optimization stage 2 on x3 .......
+Running optimization stage 2 on x2 .......
+Running optimization stage 2 on ShiftRows .......
+Running optimization stage 2 on sub_bytes .......
+Running optimization stage 2 on key_generation .......
+Running optimization stage 2 on rcon .......
+Running optimization stage 2 on sbox .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  <a href="C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.rt.csv:@XP_FILE">layer0.rt.csv</a>
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1639034660> | Running in 64-bit mode 
+File C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  <a href="C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.rt.csv:@XP_FILE">aes_main_comp.rt.csv</a>
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:20 2021
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1639034659>
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=compilerReport4></a>Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1639034661> | Running in 64-bit mode 
+File C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  9 00:24:21 2021
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1639034659>
+Premap Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1639034659>
+# Thu Dec  9 00:24:21 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=mapperReport5></a>Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+Reading constraint file: C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\synthesis.fdc
+Linked File:  <a href="C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main_scck.rpt:@XP_FILE">aes_main_scck.rpt</a>
+See clock summary report "C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1639034663> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1639034663> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1639034663> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1639034663> | Applying syn_allowed_resources blockrams=21 on top level netlist aes_main  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 197MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+******************
+
+          Start            Requested     Requested     Clock        Clock                   Clock
+Level     Clock            Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------------
+0 -       aes_main|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     4866 
+=================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                 Clock     Source        Clock Pin          Non-clock Pin     Non-clock Pin
+Clock            Load      Pin           Seq Example        Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------
+aes_main|clk     4866      clk(port)     correct_flag.C     -                 -            
+===========================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MT530:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034663> | Found inferred clock aes_main|clk which controls 4866 sequential elements including r1.step1.out[127:0]. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1639034663> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1639034663> | Writing default property annotation file C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 191MB peak: 198MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 198MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 198MB peak: 198MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 115MB peak: 199MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Dec  9 00:24:23 2021
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1639034659>
+Map & Optimize Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1639034659>
+# Thu Dec  9 00:24:23 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+<a name=mapperReport7></a>Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1639034695> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1639034695> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1639034695> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_9(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM s3.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM s3.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM s2.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM s2.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM s1.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM s1.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM s0.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM s0.sub_byte_1[7:0] (in view: work.key_generation_9(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_8(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_8(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_8(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_7(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_7(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_7(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_6(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_6(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_6(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_5(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_5(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_5(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_4(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_3(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_2(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM r0.out_1[29:24] (in view: work.key_generation_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM r0.out_1[29:24] (in view: work.key_generation_1(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM out_1[29:24] (in view: work.rcon_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@W:FA239:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | ROM out_1[29:24] (in view: work.rcon_9(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\key_generation.v:35:1:35:5:@N:MO106:@XP_MSG">key_generation.v(35)</a><!@TM:1639034695> | Found ROM out_1[29:24] (in view: work.rcon_9(verilog)) with 1 words by 6 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_51(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_51(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_50(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_50(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_49(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_49(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_48(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_48(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_47(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_47(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_46(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_46(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_45(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_45(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_44(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_44(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_43(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_43(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_42(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_42(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_41(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_41(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_40(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_40(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_39(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_39(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_38(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_38(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_37(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_37(verilog)) with 1 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@W:FA239:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | ROM sub_byte_1[7:0] (in view: work.sbox_19_36(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM sub_byte_1[7:0] (in view: work.sbox_19_36(verilog)) with 1 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 188MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 179MB peak: 188MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[9] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[8] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[7] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[5] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[1] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[23] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[20] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[17] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[15] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[14] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[41] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[40] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[37] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[35] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[33] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[32] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[31] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[29] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[56] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[55] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[52] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[49] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[48] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[47] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[45] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[43] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[42] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[71] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[70] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[67] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[65] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[64] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[63] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[60] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[59] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[58] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[57] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[85] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[83] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[82] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[81] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[80] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[77] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[76] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[101] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[95] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[94] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[93] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[91] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[89] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[88] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[111] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[109] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[107] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[105] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[104] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[126] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[125] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[121] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[120] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[119] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[118] because it is equivalent to instance r1.step1.out[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[6] because it is equivalent to instance r1.step1.out[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[4] because it is equivalent to instance r1.step1.out[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[3] because it is equivalent to instance r1.step1.out[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[2] because it is equivalent to instance r1.step1.out[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[11] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[26] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[25] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[24] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[22] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[21] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[19] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[18] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[16] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[13] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[12] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[39] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[38] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[36] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[34] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[30] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[28] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[27] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[54] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[53] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[51] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[50] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[46] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[44] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[69] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[68] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[66] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[62] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[61] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[86] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[84] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[79] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[78] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:BN132:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing instance r1.step1.out[75] because it is equivalent to instance r1.step1.out[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synlog\aes_main_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r1.step1.out[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r1.step1.out[10] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r1.step2.data_out[10] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r1.step2.data_out[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 192MB peak: 198MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r1.step3.m32_0.m0.dout[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r1.step3.m32_0.m0.dout[1] (in view: work.aes_main(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 206MB peak: 211MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 207MB peak: 211MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 208MB peak: 211MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 208MB peak: 211MB)
+
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.sf.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.se.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.sd.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.sc.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.sb.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.sa.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s9.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s8.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s7.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s6.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s5.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s4.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s3.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s2.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s1.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r2.step1.s0.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM k2.s3.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM k2.s2.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM k2.s1.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM k2.s0.sub_byte_1[7:0] (in view: work.aes_main(verilog)) with 1 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s0.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s1.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s3.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s7.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s8.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.s9.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.sa.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.sb.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.sc.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.sd.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.se.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r3.step1.sf.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.s7.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.sc.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.sd.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.se.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r5.step1.sf.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.s7.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.sc.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.sd.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.se.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r6.step1.sf.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.s7.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.sc.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.sd.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.se.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r7.step1.sf.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.s7.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.sc.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.sd.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.se.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r8.step1.sf.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r9.step1.s4.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r9.step1.s5.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:MO106:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Found ROM r9.step1.s6.sub_byte_1_0[7:0] (in view: work.aes_main(verilog)) with 256 words by 8 bits.
+
+Only the first 100 messages of id 'MO106' are reported. To see all messages use 'report_messages -log C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synlog\aes_main_fpga_mapper.srr -id MO106' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {MO106} -count unlimited' in the Tcl shell.
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[121] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[123] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[125] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[126] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[117] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[119] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[108] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[109] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[96] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[98] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[99] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[100] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[101] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[88] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[91] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[92] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[94] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[81] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[82] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[83] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[86] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[74] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[75] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[76] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[79] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[66] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[68] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[69] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[70] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[71] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[56] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[57] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[59] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[62] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[63] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[51] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[54] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[43] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[44] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[47] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[32] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[33] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[35] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[36] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[39] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[24] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[26] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[27] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[28] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[29] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[31] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[17] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[20] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[9] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[10] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[11] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[12] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[15] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[0] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[1] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[3] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[7] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[120] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[122] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[124] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[127] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[112] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[113] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[114] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[115] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[116] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[118] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[104] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[105] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[106] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[107] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[110] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[111] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[97] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[102] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[103] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[89] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[90] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[93] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[95] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[80] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[84] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[85] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[87] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[72] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[73] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[77] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[78] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[64] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[65] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[67] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[58] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[60] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[61] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@W:MO129:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Sequential instance r2.step1.out[48] is reduced to a combinational gate by constant propagation.</font>
+
+Only the first 100 messages of id 'MO129' are reported. To see all messages use 'report_messages -log C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synlog\aes_main_fpga_mapper.srr -id MO129' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {MO129} -count unlimited' in the Tcl shell.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[127] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[124] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[122] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[120] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[118] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[116] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[115] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[114] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[113] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[112] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[111] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[110] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[107] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[106] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[105] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[104] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[103] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[102] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[97] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[95] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[93] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[90] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[89] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[87] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[85] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[84] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[80] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[78] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[77] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[73] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[72] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[67] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[65] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[64] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[61] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[60] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[58] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[55] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[53] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[52] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[50] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[49] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[48] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[46] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[45] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[42] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[41] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[40] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[38] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[37] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[34] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[30] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[25] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[23] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[22] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[21] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[19] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[18] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[16] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[14] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[13] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[8] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[6] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[5] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[4] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r2.step3.m32_0.m0.dout[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r2.step3.m32_0.m0.dout[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r2.step2.data_out[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r2.step2.data_out[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sub_bytes.v:25:0:25:6:@N:BN362:@XP_MSG">sub_bytes.v(25)</a><!@TM:1639034695> | Removing sequential instance r2.step1.out_reg[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r2.step3.m32_0.m0.dout[4] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m0.dout[1] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m0.dout[7] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r3.step2.data_out[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r3.step2.data_out[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m1.dout[5] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r3.step2.data_out[1] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m1.dout[4] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m0.dout[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m0.dout[3] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m1.dout[1] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_1.m0.dout[1] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\shiftrows.v:7:0:7:6:@N:BN362:@XP_MSG">shiftrows.v(7)</a><!@TM:1639034695> | Removing sequential instance r3.step2.data_out[14] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\sbox.v:4:1:4:5:@N:BN362:@XP_MSG">sbox.v(4)</a><!@TM:1639034695> | Removing sequential instance r3.step1.s0.sub_byte_1_0_dreg[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_0.m0.dout[4] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r3.step3.m32_1.m0.dout[3] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m1.dout[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m1.dout[5] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m2.dout[0] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m2.dout[2] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m2.dout[5] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m2.dout[6] (in view: work.aes_main(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\microsemi\projects\project_3\aes_jb\hdl\mixcolumns.v:49:0:49:6:@N:BN362:@XP_MSG">mixcolumns.v(49)</a><!@TM:1639034695> | Removing sequential instance r4.step3.m32_0.m2.dout[7] (in view: work.aes_main(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synlog\aes_main_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished preparing to map (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 338MB peak: 399MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 260MB peak: 399MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 261MB peak: 399MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 261MB peak: 399MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 221MB peak: 399MB)
+
+Writing Analyst data base C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 245MB peak: 399MB)
+
+Writing Verilog Simulation files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1639034695> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1639034695> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 246MB peak: 399MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 245MB peak: 399MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1639034695> | Found inferred clock aes_main|clk with period 10.00ns. Please declare a user-defined clock on port clk.</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing report written on Thu Dec  9 00:24:54 2021
+#
+
+
+Top view:               aes_main
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\synthesis.fdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1639034695> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1639034695> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: NA
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+aes_main|clk       100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+=====================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 245MB peak: 399MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 245MB peak: 399MB)
+
+---------------------------------------
+<a name=resourceUsage13></a>Resource Usage Report for aes_main </a>
+
+Mapping to part: m2s010vf400std
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 3
+I/O primitives: 2
+OUTBUF         2 uses
+
+
+Total LUTs:    0
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 107MB peak: 399MB)
+
+Process took 0h:00m:31s realtime, 0h:00m:31s cputime
+# Thu Dec  9 00:24:55 2021
+
+###########################################################]
+
+</pre></samp></body></html>

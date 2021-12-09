@@ -1,0 +1,496 @@
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-466NLTIC
+
+# Wed Dec  8 23:18:19 2021
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v" (library work)
+@I::"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v" (library work)
+Verilog syntax check successful!
+Selecting top level module aes_main
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sbox.v":2:7:2:10|Synthesizing module sbox in library work.
+Running optimization stage 1 on sbox .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":33:7:33:10|Synthesizing module rcon in library work.
+Running optimization stage 1 on rcon .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\key_generation.v":1:7:1:20|Synthesizing module key_generation in library work.
+Running optimization stage 1 on key_generation .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\sub_bytes.v":1:7:1:15|Synthesizing module sub_bytes in library work.
+Running optimization stage 1 on sub_bytes .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\ShiftRows.v":1:7:1:15|Synthesizing module ShiftRows in library work.
+Running optimization stage 1 on ShiftRows .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":45:7:45:8|Synthesizing module x2 in library work.
+Running optimization stage 1 on x2 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":54:7:54:8|Synthesizing module x3 in library work.
+Running optimization stage 1 on x3 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":16:7:16:9|Synthesizing module x32 in library work.
+Running optimization stage 1 on x32 .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\mixcolumns.v":1:7:1:16|Synthesizing module mixcolumns in library work.
+Running optimization stage 1 on mixcolumns .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":1:7:1:11|Synthesizing module round in library work.
+Running optimization stage 1 on round .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\round.v":10:7:10:13|Synthesizing module f_round in library work.
+Running optimization stage 1 on f_round .......
+@N: CG364 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":1:7:1:14|Synthesizing module aes_main in library work.
+Running optimization stage 1 on aes_main .......
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":32:10:32:12|Removing instance r10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":31:8:31:9|Removing instance r9 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":30:8:30:9|Removing instance r8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":29:8:29:9|Removing instance r7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":28:8:28:9|Removing instance r6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":27:8:27:9|Removing instance r5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":26:8:26:9|Removing instance r4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":25:8:25:9|Removing instance r3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":24:8:24:9|Removing instance r2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":23:8:23:9|Removing instance r1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":20:16:20:18|Removing instance k10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":19:16:19:17|Removing instance k9 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":18:16:18:17|Removing instance k8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":17:16:17:17|Removing instance k7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":16:16:16:17|Removing instance k6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":14:16:14:17|Removing instance k5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":13:16:13:17|Removing instance k4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":12:16:12:17|Removing instance k3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":11:16:11:17|Removing instance k2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":10:16:10:17|Removing instance k1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":36:4:36:9|Pruning unused register correct_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":36:4:36:9|Pruning unused register incorrect_flag. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on aes_main .......
+@N: CL159 :"C:\Microsemi\Projects\Project_3\AES_jb\hdl\aes_main.v":1:22:1:24|Input clk is unused.
+Running optimization stage 2 on f_round .......
+Running optimization stage 2 on round .......
+Running optimization stage 2 on mixcolumns .......
+Running optimization stage 2 on x32 .......
+Running optimization stage 2 on x3 .......
+Running optimization stage 2 on x2 .......
+Running optimization stage 2 on ShiftRows .......
+Running optimization stage 2 on sub_bytes .......
+Running optimization stage 2 on key_generation .......
+Running optimization stage 2 on rcon .......
+Running optimization stage 2 on sbox .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 90MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec  8 23:18:21 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"c:\microsemi\projects\project_3\aes_jb\hdl\aes_main.v":1:7:1:14|Selected library: work cell: aes_main view verilog as top level
+@N: NF107 :"c:\microsemi\projects\project_3\aes_jb\hdl\aes_main.v":1:7:1:14|Selected library: work cell: aes_main view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec  8 23:18:21 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec  8 23:18:21 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"c:\microsemi\projects\project_3\aes_jb\hdl\aes_main.v":1:7:1:14|Selected library: work cell: aes_main view verilog as top level
+@N: NF107 :"c:\microsemi\projects\project_3\aes_jb\hdl\aes_main.v":1:7:1:14|Selected library: work cell: aes_main view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec  8 23:18:22 2021
+
+###########################################################]
+Premap Report
+
+# Wed Dec  8 23:18:22 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+Reading constraint file: C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\synthesis.fdc
+@L: C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main_scck.rpt 
+See clock summary report "C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist aes_main 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 160MB peak: 160MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi\Projects\Project_3\AES_jb\synthesis\aes_main.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 163MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec  8 23:18:23 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Dec  8 23:18:23 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: LAPTOP-466NLTIC
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 158MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 163MB)
+
+Writing Analyst data base C:\Microsemi\Projects\Project_3\AES_jb\synthesis\synwork\aes_main_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Dec  8 23:18:25 2021
+#
+
+
+Top view:               aes_main
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Microsemi\Projects\Project_3\AES_jb\designer\aes_main\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+---------------------------------------
+Resource Usage Report for aes_main 
+
+Mapping to part: m2s010vf400std
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Total LUTs:    0
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec  8 23:18:25 2021
+
+###########################################################]

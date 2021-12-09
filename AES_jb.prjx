@@ -1,0 +1,302 @@
+KEY LIBERO "12.900"
+KEY CAPTURE "12.900.20.24"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi\Projects\Project_3\AES_jb"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "aes_main::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\constraint\io\test.pdc,io_pdc"
+STATE="utd"
+TIME="1639031709"
+SIZE="0"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1639034487"
+SIZE="926"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\hdl\aes_main.v,hdl"
+STATE="utd"
+TIME="1639034811"
+SIZE="1702"
+ENDFILE
+VALUE "<project>\hdl\key_generation.v,hdl"
+STATE="utd"
+TIME="1639029064"
+SIZE="1184"
+ENDFILE
+VALUE "<project>\hdl\mixcolumns.v,hdl"
+STATE="utd"
+TIME="1639029104"
+SIZE="1535"
+ENDFILE
+VALUE "<project>\hdl\round.v,hdl"
+STATE="utd"
+TIME="1639030558"
+SIZE="535"
+ENDFILE
+VALUE "<project>\hdl\sbox.v,hdl"
+STATE="utd"
+TIME="1639029142"
+SIZE="7885"
+ENDFILE
+VALUE "<project>\hdl\ShiftRows.v,hdl"
+STATE="utd"
+TIME="1639029008"
+SIZE="855"
+ENDFILE
+VALUE "<project>\hdl\sub_bytes.v,hdl"
+STATE="utd"
+TIME="1639029176"
+SIZE="716"
+ENDFILE
+VALUE "<project>\synthesis\aes_main.so,so"
+STATE="utd"
+TIME="1639030705"
+SIZE="229"
+ENDFILE
+VALUE "<project>\synthesis\aes_main.vm,syn_vm"
+STATE="ood"
+TIME="1639030705"
+SIZE="1496"
+ENDFILE
+VALUE "<project>\synthesis\aes_main_syn.prj,prj"
+STATE="utd"
+TIME="1639030705"
+SIZE="2664"
+ENDFILE
+VALUE "<project>\synthesis\aes_main_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1639030705"
+SIZE="805"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1639030671"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "aes_main::work"
+FILE "<project>\hdl\aes_main.v,hdl"
+LIST PNRConstraints
+VALUE "<project>\constraint\io\test.pdc,io_pdc"
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microsemi\Libero_SoC_v12.6\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=" -l testbench_postsynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.6\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:aes_main_PROGRAM.log
+HDL;hdl\aes_main.v;0
+HDL;hdl\round.v;0
+ACTIVEVIEW;hdl\aes_main.v
+ENDLIST
+LIST ModuleSubBlockList
+LIST "aes_main::work","hdl\aes_main.v","FALSE","FALSE"
+SUBBLOCK "f_round::work","hdl\round.v","FALSE","FALSE"
+SUBBLOCK "key_generation::work","hdl\key_generation.v","FALSE","FALSE"
+SUBBLOCK "round::work","hdl\round.v","FALSE","FALSE"
+ENDLIST
+LIST "f_round::work","hdl\round.v","FALSE","FALSE"
+SUBBLOCK "ShiftRows::work","hdl\ShiftRows.v","FALSE","FALSE"
+SUBBLOCK "sub_bytes::work","hdl\sub_bytes.v","FALSE","FALSE"
+ENDLIST
+LIST "key_generation::work","hdl\key_generation.v","FALSE","FALSE"
+SUBBLOCK "rcon::work","hdl\key_generation.v","FALSE","FALSE"
+SUBBLOCK "sbox::work","hdl\sbox.v","FALSE","FALSE"
+ENDLIST
+LIST "mixcolumns::work","hdl\mixcolumns.v","FALSE","FALSE"
+SUBBLOCK "x32::work","hdl\mixcolumns.v","FALSE","FALSE"
+ENDLIST
+LIST "rcon::work","hdl\key_generation.v","FALSE","FALSE"
+ENDLIST
+LIST "round::work","hdl\round.v","FALSE","FALSE"
+SUBBLOCK "ShiftRows::work","hdl\ShiftRows.v","FALSE","FALSE"
+SUBBLOCK "mixcolumns::work","hdl\mixcolumns.v","FALSE","FALSE"
+SUBBLOCK "sub_bytes::work","hdl\sub_bytes.v","FALSE","FALSE"
+ENDLIST
+LIST "sbox::work","hdl\sbox.v","FALSE","FALSE"
+ENDLIST
+LIST "ShiftRows::work","hdl\ShiftRows.v","FALSE","FALSE"
+ENDLIST
+LIST "sub_bytes::work","hdl\sub_bytes.v","FALSE","FALSE"
+SUBBLOCK "sbox::work","hdl\sbox.v","FALSE","FALSE"
+ENDLIST
+LIST "x2::work","hdl\mixcolumns.v","FALSE","FALSE"
+ENDLIST
+LIST "x3::work","hdl\mixcolumns.v","FALSE","FALSE"
+SUBBLOCK "x2::work","hdl\mixcolumns.v","FALSE","FALSE"
+ENDLIST
+LIST "x32::work","hdl\mixcolumns.v","FALSE","FALSE"
+SUBBLOCK "x2::work","hdl\mixcolumns.v","FALSE","FALSE"
+SUBBLOCK "x3::work","hdl\mixcolumns.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\test.pdc"
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST
